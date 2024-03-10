@@ -13,20 +13,36 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://gme-hong.github.io/2024/03/10/first-try/"/>
+    <link rel="canonical" href="https://gme-hong.github.io/2024/03/11/chatgpt/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta property="og:type" content="article">
-<meta property="og:title" content="First Try">
-<meta property="og:url" content="https://gme-hong.github.io/2024/03/10/first-try/index.html">
+        <meta name="description" content="前言作为一名非专精于NLP算法的同学，去详细论述ChatGPT的底层原理是很困难的。但好在最近为了搭建一个轻量化的RGM(Robotic Grasp Model)，接触到了一部分的图像注意力机制。想着CV、NLP本是一家亲，更何况ChatGPT的前世还可以追溯到《Attention is all you need》，为此斗胆写了一篇《ChatGPT 打开潘多拉魔盒，行业壁垒逐步瓦解》的爽文（对！爽">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ChatGPT">
+<meta property="og:url" content="https://gme-hong.github.io/2024/03/11/ChatGPT/index.html">
 <meta property="og:site_name" content="OpticHong&#39;s Blog">
+<meta property="og:description" content="前言作为一名非专精于NLP算法的同学，去详细论述ChatGPT的底层原理是很困难的。但好在最近为了搭建一个轻量化的RGM(Robotic Grasp Model)，接触到了一部分的图像注意力机制。想着CV、NLP本是一家亲，更何况ChatGPT的前世还可以追溯到《Attention is all you need》，为此斗胆写了一篇《ChatGPT 打开潘多拉魔盒，行业壁垒逐步瓦解》的爽文（对！爽">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2024-03-10T06:26:17.014Z">
-<meta property="article:modified_time" content="2024-03-10T16:22:35.928Z">
+<meta property="og:image" content="https://gme-hong.github.io/2024/03/11/ChatGPT/10e55600dccd279069d0b58207d487c0.jpeg">
+<meta property="og:image" content="https://gme-hong.github.io/2024/03/11/ChatGPT/dcffceea100ade33ea53501be945d8ce.jpeg">
+<meta property="og:image" content="https://gme-hong.github.io/2024/03/11/ChatGPT/0c2fb894842b39f67ecc33c9288dbd52.jpeg">
+<meta property="og:image" content="https://gme-hong.github.io/2024/03/11/ChatGPT/c0854733319aa7072300560b658b9870.jpeg">
+<meta property="og:image" content="https://gme-hong.github.io/2024/03/11/ChatGPT/4f3fb972239aaa256189b0deacda9250.jpeg">
+<meta property="og:image" content="https://gme-hong.github.io/2024/03/11/ChatGPT/40c8529d16291e27f2a83f703b82c16b.png">
+<meta property="og:image" content="https://gme-hong.github.io/2024/03/11/ChatGPT/f6781e42fff838887dac39c51faa93c4.png">
+<meta property="og:image" content="https://gme-hong.github.io/2024/03/11/ChatGPT/af78a744ecc9dcf2b84d5a3e2ab46078.png">
+<meta property="og:image" content="https://gme-hong.github.io/2024/03/11/ChatGPT/55e5bf98008def23eef58ba85ae0a828.png">
+<meta property="og:image" content="https://gme-hong.github.io/2024/03/11/ChatGPT/cc640438c277e692b60b5e6996600585.jpeg">
+<meta property="og:image" content="https://gme-hong.github.io/2024/03/11/ChatGPT/618ca0f94d2d55e0bec876e5c4f2604f.png">
+<meta property="og:image" content="https://gme-hong.github.io/2024/03/11/ChatGPT/bd5342b6599340434ac528d0be5f58d1.png">
+<meta property="article:published_time" content="2024-03-10T18:02:02.000Z">
+<meta property="article:modified_time" content="2024-03-10T18:08:59.339Z">
 <meta property="article:author" content="OpticHong">
+<meta property="article:tag" content="AI">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gme-hong.github.io/2024/03/11/ChatGPT/10e55600dccd279069d0b58207d487c0.jpeg">
     
     
     <!--- Icon Part-->
@@ -38,7 +54,7 @@
     
     <title>
         
-            First Try -
+            ChatGPT -
         
         OpticHong
     </title>
@@ -566,7 +582,7 @@
         <div class="article-title relative w-full">
             
                 <div class="w-full flex items-center pt-6 justify-start">
-                    <h1 class="article-title-regular text-second-text-color text-4xl md:text-6xl font-bold px-2 sm:px-6 md:px-8 py-3">First Try</h1>
+                    <h1 class="article-title-regular text-second-text-color text-4xl md:text-6xl font-bold px-2 sm:px-6 md:px-8 py-3">ChatGPT</h1>
                 </div>
             
             </div>
@@ -587,27 +603,42 @@
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="desktop">2024-03-10 14:26:17</span>
-        <span class="mobile">2024-03-10 14:26:17</span>
+        <span class="desktop">2024-03-11 02:02:02</span>
+        <span class="mobile">2024-03-11 02:02:02</span>
         <span class="hover-info">Created</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-03-11 00:22:35</span>
-            <span class="mobile">2024-03-11 00:22:35</span>
+            <span class="desktop">2024-03-11 02:08:59</span>
+            <span class="mobile">2024-03-11 02:08:59</span>
             <span class="hover-info">Updated</span>
         </span>
     
 
     
     
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/AI/">AI</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
 
     
     
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>6.4k Words</span>
+        </span>
+    
     
         <span class="article-min2read article-meta-item">
-            <i class="fa-regular fa-clock"></i>&nbsp;<span>1 Mins</span>
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>22 Mins</span>
         </span>
     
     
@@ -626,25 +657,151 @@
 
 
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-            
+            <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为一名非专精于NLP算法的同学，去详细论述ChatGPT的底层原理是很困难的。但好在最近为了搭建一个轻量化的RGM(Robotic Grasp Model)，接触到了一部分的图像注意力机制。想着CV、NLP本是一家亲，更何况ChatGPT的前世还可以追溯到《Attention is all you need》，为此斗胆写了一篇《ChatGPT 打开潘多拉魔盒，行业壁垒逐步瓦解》的爽文（对！爽文，让你轻松拿捏这个庞然大物），仅供同学们交流学习！</p>
+<p>在本文中你将会了解到一些人工智能的前置知识、ChatGPT的概念、Transformer的基本原理、还有我关于ChatGPT的见解~</p>
+<h2 id="人工智能的前置知识"><a href="#人工智能的前置知识" class="headerlink" title="人工智能的前置知识"></a>人工智能的前置知识</h2><p>ChatGPT作为一个人工智能LLM (Large Language Model) 大语言模型，细盘之前，我们先了解一下一些基本的人工智能知识。</p>
+<h3 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h3><p>机器学习，作为计算机专业研一同学必修的一门课程，足以体现其在人工智能领域举足轻重的地位。虽然现在学术前沿领域都在深度学习这条赛道上一发不可收拾，但是搞深度学习前还是得了解一些机器学习哦。<code>smooth_l1_loss</code>、<code>sigmoid</code>都会吧，同学？这些在用<code>pytorch</code>搞深度学习时常用的损失函数、激活函数可都是机器学习的知识哦。撇开HMM(Hidden Markov Model)、CRF(Conditional Random Field)等一些集成方法不谈，无论是决策树、K-means聚类、支持向量机、梯度提升树还是朴素贝叶斯，这些经典的机器学习模型也都是一些工业应用领域的常青树哦！（别问我为什么，去问度娘~）。</p>
+<p>讲了一大堆机器学习的重要性，都还没说这到底是个啥。来，上概念。</p>
+<p>机器学习(Machine Learning，ML)是指从有限的观测数据中学习(或“猜测”)出具有一般性的规律，并将这些规律应用到未观测数据样本上的方法。主要研究内容是学习算法。基本流程是基于数据产生模型，利用模型预测输出。目标是让模型有较好泛化能力。</p>
+<p>什么？太抽象了，不好理解？</p>
+<p>举一个经典的例子，我们挑西瓜的时候是如何判断一个西瓜是否成熟的呢？每个人一开始都是不会挑选的，但是随着我们耳濡目染，看了很多挑西瓜能手是怎么做的，发现可以通过西瓜的颜色，大小，产地，纹路，敲击声等等因素来判断，那么这个就是一个学习的过程。</p>
+<p>那么人工智能、机器学习以及深度学习的关系是什么呢？或者说这个家族的族谱应该怎么画呢？</p>
+<p>别急，一张图搞明白他们的关系。</p>
+<img lazyload src="/images/loading.svg" data-src="/2024/03/11/ChatGPT/10e55600dccd279069d0b58207d487c0.jpeg" class title="10e55600dccd279069d0b58207d487c0.jpeg">
+
+<p>不知道你有没发现，这些方法的进化过程就是人类专精于摸鱼的过程。从以前纯人工作业到现在半人工、甚至全智能作业，从需要繁琐的数据预处理和客制化的特征提取手段的机器学习过渡到让机器自己去学特征的深度学习，从有监督任务过渡到自监督任务、多阶段深度学习算法过渡到端到端的算法，从手动搭建合适的深度网络模型到NAS(Neural Architecture Search) ……</p>
+<p>哇，果然人类摸鱼的潜能是无限的~</p>
+<h3 id="参数-权重："><a href="#参数-权重：" class="headerlink" title="参数 &#x2F; 权重："></a>参数 &#x2F; 权重：</h3><p>前文我们说过，ChatGPT是一个LLM。对于任何模型而言，无非就两种表示形式，即<code>y=f(x)</code>型和<code>P(y|x)</code>型。前者是确定性模型(也称非概率模型)，后者是概率模型。无非是哪一种，其中不可或缺的就是参数。</p>
+<p>我们举几个例子说明参数的重要性。</p>
+<p>如<code>y=f(x)</code>模型中最简单的y&#x3D;wx+b。先不引入任何机器学习的概念，这就是我们小学学的二元一次方程，只不过我们当时w和b往往是给定的，我们最关注的就是如何解得x和y。但在机器学习中，往往x是给定的，需要我们求解出(拟合出)w和b的值。按照我们小学课本里教的，w就是斜率，b就是截距。说到这里不知道你意识到没，这就是知识啊！我们知道了其特定的含义就能在一个二维平面中可视化这条直线，机器知道了就能做一个简单的yes和no的回答。又如<code>P(y|x)</code>模型中的<br>$$<br>HMM(\mu&#x3D;[\pi,A,B])<br>$$<br>无论是初始概率分布，状态转移矩阵还是观测矩阵都是HMM主要的参数来源啊，而这三个部分也正是HMM的核心。</p>
+<p>而我们所津津乐道的ChatGPT就是一个除了参数还是参数的大怪物，其拥有这可怕的1750亿的参数规模(本来还想说一下其所需的浮点运算次数的，emmm，找了半天没找到)。要训练一个千亿参数量级的模型，所需要支持的算力那也应该不是我们能设想的。再加上<code>human in the loop</code>的机制，哇，烧钱的嘞。</p>
+<h3 id="过拟合、欠拟合与模型退化"><a href="#过拟合、欠拟合与模型退化" class="headerlink" title="过拟合、欠拟合与模型退化"></a>过拟合、欠拟合与模型退化</h3><p>如果你已经把所有的菜都备齐了，炒菜的设备也上齐了，那么接下来就应该是生火开炒了——这里具体如何炒，先加盐还是先放醋针对不同的菜应该有不同的策略，正如机器学习针对不同的任务需要设计不同的特征提取策略一样，为此这里我们还是用深度学习的黑箱模型来说事(其实主要是我不会炒菜……)。最理想的状态肯定就是炒完后菜的口感最能满足你挑剔的嘴，但是事情往往并不会向我们所期待的那样，炒焦了和没炒熟都是很常见的情况。模型的训练也正如这个做菜的过程，稍不留神就过拟、欠拟。但这还是好的，最崩溃的情况是你拿一只大锅发现怎么样也炒不出小锅的味道，而且每次用大锅颠勺都还让你累的够呛。这也就是模型的退化现象，好像这就是自然界的规律，过犹而不及。正如Google的PaLM(5400亿参数)，微软和英伟达合作的MT-NLG(5300亿参数)跟ChatGPT比起来都差点意思。</p>
+<h3 id="人类反馈强化学习（RLHF）"><a href="#人类反馈强化学习（RLHF）" class="headerlink" title="人类反馈强化学习（RLHF）"></a>人类反馈强化学习（RLHF）</h3><p>人类反馈强化学习，一听到这个名词是不是就感觉特别高大尚。害其实也没什么，就是智能还不够智能，还需要人类从中插一脚。RLHF最本质的特点就是<code>human in the loop</code>，也就是人在回路。当然认真看过流浪地球2的同学们应该还是不太陌生的。</p>
+<p>RLHF 主要包括三个步骤：</p>
+<ol>
+<li>使用监督学习训练语言模型；</li>
+<li>根据人类偏好收集比较数据并训练奖励模型；</li>
+<li><strong>使用强化学习针对奖励模型优化语言模型。</strong></li>
+</ol>
+<p>它使模型能够通过从人类获取反馈，从而不断改进自身学习技能，从而有效地适应实际环境。都说到这个份上了，养过猫猫狗狗的同学应该就能get到了，你驯化它的过程就是RLHF。</p>
+<h3 id="神经网络"><a href="#神经网络" class="headerlink" title="神经网络"></a>神经网络</h3><p>神经网络，都以“神经”这两个字命名了，那肯定就和人的神经元系统相当类似咯。无论是你眼镜接收到的视觉信息、皮肤感知到的触觉信息还是耳朵获取的听觉信息都需要从感受器通过电信号(和化学信号)的形式传导到神经中枢，而这就跟输入向量在神经网络的传导过程十分类似。对于冲动传输链路上的每一个神经元扮演了一个节流阀的作用(激活还是抑制)，类似于神经网络的前向传播过程，每一层的每个节点都能决定通过其这条沿线的权重大小。</p>
+<table>
+<thead>
+<tr>
+<th><img lazyload src="/images/loading.svg" data-src="/2024/03/11/ChatGPT/dcffceea100ade33ea53501be945d8ce.jpeg" class title="dcffceea100ade33ea53501be945d8ce.jpeg"></th>
+<th><img lazyload src="/images/loading.svg" data-src="/2024/03/11/ChatGPT/0c2fb894842b39f67ecc33c9288dbd52.jpeg" class title="0c2fb894842b39f67ecc33c9288dbd52.jpeg"><img lazyload src="/images/loading.svg" data-src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>图二：单个神经元的结构</td>
+<td>图三：神经冲动的传导过程</td>
+</tr>
+</tbody></table>
+<p>神经网络的结构正如图五所示，最基本形式的人工神经网络有三层神经元。信息从一层神经元流向另一层，就像在人脑中一样：</p>
+<ol>
+<li>输入层：数据进入系统的入口点</li>
+<li>隐藏层：处理信息的地方</li>
+<li>输出层：系统根据数据决定如何继续操作的位置</li>
+</ol>
+<p>| <img lazyload src="/images/loading.svg" data-src="/2024/03/11/ChatGPT/c0854733319aa7072300560b658b9870.jpeg" class title="c0854733319aa7072300560b658b9870.jpeg"><img lazyload src="/images/loading.svg" data-src="/2024/03/11/ChatGPT/4f3fb972239aaa256189b0deacda9250.jpeg" class title="点击并拖拽以移动](data:image&#x2F;gif;base64,R0lGODlhAQABAPABAP&#x2F;&#x2F;&#x2F;wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw&#x3D;&#x3D;) | ![4f3fb972239aaa256189b0deacda9250.png"> |<br>| ———————————————————— | ———————————————————— |<br>| 图四：神经冲动传导的动作电位                                 | 图五：神经冲动的传导过程                                     |</p>
+<h2 id="ChatGPT-的概念"><a href="#ChatGPT-的概念" class="headerlink" title="ChatGPT 的概念"></a>ChatGPT 的概念</h2><p>哇，终于写到正题了，eight hours later……</p>
+<p>GPT 对应的是三个单词：Generative，Pre-Training，Transformer。</p>
+<p><strong>Generative</strong>：生成式，比较好理解，通过学习历史数据，来生成<strong>全新</strong>的数据。请注意，这里是全新的哦！不过全新也要看你怎么理解，如果想说它能所回答你的每一个字是不是全新的，那肯定是不现实的。这种新应该是一种全新的、带有人类语言逻辑的语句组合。更直观地去理解Generative，那肯定就得提及DALL-E(emmm，这家伙也是OpenAI的)，这个东西能够根据一段场景描述性的文字来生成一张与之对应的、全新的图片(类似于上面对全新概念的理解，你总不能要0-255的像素值是全新的吧)。从这个角度去理解ChatGPT，那它就一个词生成器啊。例如ChatGPT已经生成了“今天晚上我们去打”，那么下一个生成的字&#x2F;词就有可能是“台球”、“篮球”、“羽毛球”、“乒乓球”、“游戏”，它的生成逻辑就是从这些候选的单元中选出一个概率最大值。如果你使用过ChatGPT，并且详细观察过它回答你的方式，你可能会对「逐字」这个概念有更深的感触。</p>
+<p><strong>Pre-Training</strong>：预训练，顾名思义就是预先训练的意思，说白了就是一个特征提取的过程。“预训练“方法的诞生是出于这样的现实：标注资源稀缺而无标注资源丰富(某种特殊的任务只存在非常少量的相关训练数据，以至于模型不能从中学习总结到有用的规律)。</p>
+<p>举个简单的例子，现在有一个对英语一窍不通的同学和一个英语基础尚佳的同学同时去完成翻译并总结一篇英语技术文章的任务。对前者来说就需要先学会英文 26 个字母，进而学会单词语法等，再去了解这篇文章相关的技术，最后才能去完成我们指派的任务。但是对后者来做这个任务就相对简单的多，他只需要去大致了解一下这篇文章所涉及到的技术，便能很好的总结出来。</p>
+<p>这就是预训练，<strong>先把一些通用能力提前训练出来</strong>。人工智能本身就是一个不断训练参数的过程，如果我们可以提前把通用能力相关的参数提前训练好，那么在一些特殊的场景，发现通用能力不能完全适配时，只做简单的参数微调即可，这样做大幅减少了每个独立训练预测任务的计算成本。反映在具体模型上就是：</p>
+<ol>
+<li>模型参数不再是随机初始化，而是通过一些任务(如语言模型)进行预训练</li>
+<li>将训练任务拆解成共性学习和特性学习两个步骤</li>
+</ol>
+<p><strong>Transformer</strong>：这是 ChatGPT 的灵魂，它是一个神经网络架构。后文再进行详细的说明。</p>
+<p>以上就是 ChatGPT 的基本概念，结合起来就是一个采用了预训练和强化学习策略的生成式神经网络模型，它能够对人类的对话进行模拟。</p>
+<h2 id="Transformer基本知识"><a href="#Transformer基本知识" class="headerlink" title="Transformer基本知识"></a>Transformer基本知识</h2><p>因为介绍Transformer的文章很多啊，在此我就直接搬运王正学长在《<a class="link" target="_blank" rel="noopener" href="https://juejin.cn/post/7277802797473841186">让非算法同学也能了解 ChatGPT 等相关大模型 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>》文章中论述的了。别看Transformer(变形金刚，很漫威)这个名字很玄乎，其实大致也就三个主要部分：Embedding、Self-Attention以及Softmax。</p>
+<p>Embedding很好理解，就是要把输入的自然语言转换成机器能理解的向量表示。当然为了充分利用语言的序列特性，因此还需要加入额外的位置编码。</p>
+<p>Self-Attention也就是我们常说的自注意力机制，emmm有点复杂，好像一句话不怎么讲的清楚，其实也就是<code>&quot;What do I care most about myself&quot;</code>。</p>
+<p>Softmax这个好理解，直接上公式：<br>$$<br>Softmax(z_i&#x3D;\frac{exp(z_i)}{\sum_iexp(z_i)})<br>$$<br>这东西的本质就像我上面举的“今天晚上我们去打”的例子，就是选出一个最大概率呗。</p>
+<hr>
+<h3 id="第一步：embedding"><a href="#第一步：embedding" class="headerlink" title="第一步：embedding"></a>第一步：embedding</h3><p>embedding 的过程可以简单的理解为向量化。因为输入是一个个的词(token)，那需要把它映射成一个向量，embedding就是给定任何一个词，用一个向量来表示它。</p>
+<p>在 embedding 的过程中，每个 token 都用一个单层神经网络转化为长度为 768(对于GPT-2)或 12288(对于ChatGPT的GPT-3)的 embedding 向量。</p>
+<p>同时，模块中还有一个“辅助通路”(secondary pathway)，用于将 token 的整数位置转化为 embedding 向量。最后，将 token 值和 token 位置的 embedding 向量加在一起，生成最终的 embedding 向量序列。</p>
+<p>那么为什么要将 token 值和 token 位置的 embedding 向量相加呢？只是尝试了各种不同的方法后发现这种方法似乎可行，而且神经网络的本身也认为，只要初始设置“大致正确”，通过足够的训练，通常算法可以自动调整细节。</p>
+<p>以字符串“湖人”为例，在 gpt-2 中它可以将其转化为一系列长度为 768 的 embedding 向量，其中包括从每个 token 的值和位置中提取的信息。</p>
+<img lazyload src="/images/loading.svg" data-src="/2024/03/11/ChatGPT/40c8529d16291e27f2a83f703b82c16b.png" class title="40c8529d16291e27f2a83f703b82c16b.png">
+
+<p>第一张图中就是 token embedding，纵向一列代表一个向量，可以看到最先排列的是“湖”所代表的向量，然后是“人”所代表的向量。第二张图是位置的 embedding，代表着这两个字的位置信息。将这两两个 embedding 相加得到了最终的 embedding 序列。</p>
+<h3 id="第二步：Attention"><a href="#第二步：Attention" class="headerlink" title="第二步：Attention"></a>第二步：Attention</h3><p>Attention 是整个 transformer 的主要部分，其内部结构是非常复杂的，我作为一名非专业人士，无法面面俱到的将其中的细节完全解释清楚，因此只能把它的核心能力简单叙述一二。</p>
+<p>在进行 embedding 之后，需要对一系列的“注意力块”进行数据操作(gpt3 中有 96 个注意力块)，而每个“注意力块”中都有一组 attention heads，每个 attention head 都独立地作用于 embedding 向量中不同值的块。</p>
+<p>attention head 的作用就是对历史的 token 序列进行回顾，这里的历史 token 序列就是已经生成的文本，之后将这些信息进行打包，以便找到下一个 token。稍微具体的来说，attention head 的作用是重新组合与不同 token 相关的 embedding 向量的块，并赋予一定的权重。</p>
+<p><strong>举个例子</strong>：</p>
+<p>用 ChatGPT 翻译句子“蚂蚁集团”到“ant group”举例，首先进行上一步 embedding 操作，将句子向量化并吸收句子位置信息，得到一个句子的初始向量组。</p>
+<img lazyload src="/images/loading.svg" data-src="/2024/03/11/ChatGPT/f6781e42fff838887dac39c51faa93c4.png" class title="f6781e42fff838887dac39c51faa93c4.png">
+
+<p>由于样本每个句子长短不同，所以每个句子都会是一个 512 x 512 的矩阵，如果长度不够就用 0 来代替。这样在训练时，无论多长的句子，都可以用一个同样规模的矩阵来表示。当然 512 是超参，可以在训练前调整大小。</p>
+<p>接着，用每个字的初始向量分别乘以三个随机初始的矩阵W^Q,W^K,W^V分别得到三个量Qx，Kx，Vx，这样就得到了三个量：Qx，Kx，Vx，比如用“蚂”这个字举例：</p>
+<img lazyload src="/images/loading.svg" data-src="/2024/03/11/ChatGPT/af78a744ecc9dcf2b84d5a3e2ab46078.png" class title="af78a744ecc9dcf2b84d5a3e2ab46078.png">
+
+<p>然后，计算每个单词的 Attention 数值，比如“蚂”字的 Attention 值就是用“蚂”字的 Q蚂Q蚂 分别乘以句子中其他单词的 K 值，两个矩阵相乘的数学含义就是衡量两个矩阵的相似度。</p>
+<h3 id="第三步：将向量转为概率"><a href="#第三步：将向量转为概率" class="headerlink" title="第三步：将向量转为概率"></a>第三步：将向量转为概率</h3><p>继续用上面翻译的例子：用计算出的每个单词的 Attention 值，通过一个 SoftMax 转换(这里不必关注是怎么转换的)，计算出它跟每个单词的权重，这个权重比例所有加在一起要等于 1。再用每个权重乘以相对应的 V 值。所有乘积相加得到这个 Attention 值。</p>
+<img lazyload src="/images/loading.svg" data-src="/2024/03/11/ChatGPT/55e5bf98008def23eef58ba85ae0a828.png" class title="55e5bf98008def23eef58ba85ae0a828.png">
+
+<p>这个 Attention 数值就是除了“蚂”字自有信息和位置信息以外，成功的得到了这个句子中每个单词的相关度信息。</p>
+<p>在计算 Attention 之后，每个单词根据语义关系被打入了新的高维空间，这就是 Self-Attention(自注意力机制)。</p>
+<p>但在 transformer 里，并不是代入了一个空间，而是代入了多个高维空间，叫做 Multi-Head Attention (多头注意力机制)。将高维空间引入模型训练的主要原因是它在训练时表现出很好的效果，这是人工智能科研论文的一个常见特点，研究人员凭借着极高的科研素养和敏感性，发现一些方向，并通过测试证明其有效性，但不一定有完美的理论支持。这为后续研究者提供了进一步完善的余地。</p>
+<p>事实证明，如何提升Attention(Q，K，V)效率是 transformer 领域迭代最快的部分。</p>
+<p>这就是 transformer 的大致原理，有一些细节我个人也没有深入研究，有兴趣的人可以自行去搜索。</p>
+<hr>
+<p><strong>！！！开始夹带私货！！！</strong></p>
+<p>正如王正学长文章中所提到的——“如何提升Attention(Q，K，V)效率是 transformer 领域迭代最快的部分”，我是真的深有同感！之前还没那么多，但真的就是自己开始去跑代码的时候就知道，Attention是有多慢！！！特别是，我做的轻量化网络，就是那种除Self-Attention之外的部分占三分之一，Self-Attention占三分之二，参数量如此，GFLOPs更是如此……</p>
+<p>既然都说到这里了，那我们也来倒腾一下CV领域的Attention呗。</p>
+<img lazyload src="/images/loading.svg" data-src="/2024/03/11/ChatGPT/cc640438c277e692b60b5e6996600585.jpeg" class title="cc640438c277e692b60b5e6996600585.jpeg">
+
+<p>将Self-Attention机制引入CV领域相当重要的一篇文献就是《Non-local Neural Networks》。与对文本进行的Transformer类似，只不过由对文本的Embedding操作不再需要了，转而需要对完整的图像进行切块处理和对每一个小块进行位置编码(传统的CNN本来含有位置信息，因此没必要添加额外的位置信息)，接下来的操作和NLP中的Self-Attention大差不差了。</p>
+<img lazyload src="/images/loading.svg" data-src="/2024/03/11/ChatGPT/618ca0f94d2d55e0bec876e5c4f2604f.png" class title="618ca0f94d2d55e0bec876e5c4f2604f.png">
+
+<p>如图所示的Self-Attention，这可怕的参数量……</p>
+<p>后面还有一篇《CCNet: Criss-Cross Attention for Semantic Segmentation》是对NLNet的优化。强烈推荐看一下<a class="link" target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/51393573">CCNet–于”阡陌交通”处超越恺明Non-local <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>这篇博客，写的也是相当好(主要是标题挺吸引^_^)。</p>
+<img lazyload src="/images/loading.svg" data-src="/2024/03/11/ChatGPT/bd5342b6599340434ac528d0be5f58d1.png" class title="bd5342b6599340434ac528d0be5f58d1.png">
+
+
+
+<h2 id="为什么说ChatGPT打开了潘多拉魔盒"><a href="#为什么说ChatGPT打开了潘多拉魔盒" class="headerlink" title="为什么说ChatGPT打开了潘多拉魔盒"></a>为什么说ChatGPT打开了潘多拉魔盒</h2><p>前置内容说得太多了，终于开始说和标题有关的内容了，再拖拖都成标题党了。</p>
+<p>不过在谈这个话题之前我还是想多说两句。要不是得完成课题作业，我也不至于议论这样的话题，确实以一个本科生的角度去观望整个行业确实有点管中窥豹。不过气氛都烘托到这了，放弃不再执笔也很难受啊！！权当给未来的我剖析当下精神状态的样本吧……</p>
+<p>先引用几位大佬的话来镇镇场。</p>
+<p>微软创始人比尔盖茨曾表示：“ChatGPT的诞生丝毫不亚于个人电脑的诞生。”英伟达创始人黄仁勋也表示：“ChatGPT只是起点，我们正处于AI的iPhone时刻。”谷歌前AI团队成员、deeplearning.ai创始人吴恩达曾在推特上发表言论，认为ChatGPT等大型语言模型是“人工智能领域最为激动人心的进展之一。”</p>
+<p>之所以说ChatGPT打开了潘多拉魔盒是因为其影响足以推动各行各业的变革。</p>
+<p>首先找我来说说作为一个学生，ChatGPT到底给我带来哪些影响。</p>
+<p>ChatGPT代写课程作业(本来这个课程作业就想用它快速解决的)啥的就不多赘述了，不符合核心价值观，更多的想谈一谈ChatGPT对我知识检索习惯的改变。相信大学数学生跟我一样，在没有ChatGPT之前，我们都基于一个问题打开度娘&#x2F;Google&#x2F;Bing，然后输出问题的描述性语句，在通过关键词检索的词条中去检索自己需要的答案。正如我描述的一样，这一套流程下来是相当繁琐的，这意味着知识的检索成本相当之高。从这里就会给绝大部人形成一种习惯，或者是一种刻板印象：检索知识的过程是比较繁琐的，不能做到对陌生知识一遇一检。然后我们细化对知识的分类，很多陌生知识的复杂程度是不一样的，比如说你在冲浪时遇到一个陌生概念“NAS”，如果你只是想知道这个名词是个什么东西，那这个陌生知识就很轻量，因此你期待所消耗在这个陌生知识上的时间成本就应该很小，但是在ChatGPT出现之前，你还是得经历上面那个过程。但其实这么轻量的搜索，很多检索系统也能直接在第一个词条给到你想要的答案，但真正迈不出一遇一检的原因其实是你大脑对这个检索过程的定义。</p>
+<p>基于ChatGPT的内容式问答检索，这些轻量的知识检索过程完全可以以极低的时间成本实现，真正能够做到一遇一检。这虽然不能将你的知识网络的深度延伸到一个新的层次，但是拓展你知识网络的阔度是完全没有任何问题的。</p>
+<p>由于我大二暑假做过一个“基于2D虚拟人语音驱动”的项目，通过现有的深度学习技术已经完全可以实现模仿一个虚拟的你出来了，再配合上语音克隆的技术和ChatGPT作为对话的中转站。一个在样貌、声线、甚至是语气与微表情都和你如出一辙的虚拟人完全可以应用到生产生活的方方面面。未来注定是元宇宙的时代！</p>
+<p>而ChatGPT对一些传统行业的打击也同样是致命的，如翻译(包括同声翻译)、在线客服等，甚至我在想，ChatGPT结合具身智能在不远的将来能否替代掉那些以时间量度作为价值换算的行业。</p>
+<p>那么说回程序员，本来这个职业还是有蛮高的技术门槛的，一门编程语言的学习，以及其周边技术的掌握确实都是需要时间花费的。而矛盾的是，一般的人想要用到编程这项技术往往只是希望用它来减轻一些重复工作，他们是没有强烈的通过编程生产变现需求的。因此对于他们来说编程只是工具不是目的，如果可以以其他方式达到他们的目的，这个工具是可有可无的。ChatGPT的出现，完全满足了这一需求。一个脚本、一个前端界面、一个数据处理分析程序，这种轻量的编程需求，ChatGPT完全可以胜任。因此无形之中，编程好像也变得不再是程序员的专利，行业的门槛无形之中就被连根拔起。</p>
+<p>当然对于程序员来说，这个工具的出现也是利好的。只是从我的经历看来，我完全可以将重心全放在业务功能的如何实现上，而不用太多地去考虑如何用代码实现。现在基于ChatGPT的代码补全工具也层出不穷，虽然我体验下来也还是感觉没多大作用，但我们也还是需要给这项技术足够的包容，毕竟它刚出来还不到一年。</p>
+<p>写到这里，实在江郎才尽了！Happy Ending~</p>
+<h2 id="参考文章-文献"><a href="#参考文章-文献" class="headerlink" title="参考文章&#x2F;文献"></a>参考文章&#x2F;文献</h2><ol>
+<li><a class="link" target="_blank" rel="noopener" href="https://juejin.cn/post/7277802797473841186">让非算法同学也能了解 ChatGPT 等相关大模型 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link" target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/370859857">教你深入理解“预训练” <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link" target="_blank" rel="noopener" href="https://arxiv.org/abs/1706.03762">Attention Is All You Need <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link" target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/338817680">Transformer模型详解（图解最完整版） <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ol>
+
         </div>
 
         
             <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
                 <div class="article-copyright-info-container">
     <ul>
-        <li><strong>Title:</strong> First Try</li>
+        <li><strong>Title:</strong> ChatGPT</li>
         <li><strong>Author:</strong> Nie Hong</li>
         <li><strong>Created at
-                :</strong> 2024-03-10 14:26:17</li>
+                :</strong> 2024-03-11 02:02:02</li>
         
             <li>
                 <strong>Updated at
-                    :</strong> 2024-03-11 00:22:35
+                    :</strong> 2024-03-11 02:08:59
             </li>
         
         <li>
-            <strong>Link:</strong> https://gme-hong.github.io/2024/03/10/first-try/
+            <strong>Link:</strong> https://gme-hong.github.io/2024/03/11/ChatGPT/
         </li>
         <li>
             <strong>
@@ -663,6 +820,14 @@
         
 
         
+            <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/AI/">#AI</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
 
         
   <div class="recommended-article px-2 sm:px-6 md:px-8">
@@ -670,9 +835,9 @@
     <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
      <i aria-hidden="true"></i><span>Recommendation</span>
     </div>
-    <div class="recommended-article-group"><a class="recommended-article-item" href="/2024/03/11/ChatGPT/" title="ChatGPT" rel="bookmark">
-  <img src="/images/background-light.jpg" alt="ChatGPT" class="!max-w-none">
-  <span class="title">ChatGPT</span>
+    <div class="recommended-article-group"><a class="recommended-article-item" href="/2024/03/10/first-try/" title="First Try" rel="bookmark">
+  <img src="/images/background-light.jpg" alt="First Try" class="!max-w-none">
+  <span class="title">First Try</span>
 </a><a class="recommended-article-item" href="/2024/03/11/xv6-file-system/" title="xv6 file system" rel="bookmark">
   <img src="/images/background-light.jpg" alt="xv6 file system" class="!max-w-none">
   <span class="title">xv6 file system</span>
@@ -682,9 +847,9 @@
    <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
      <i aria-hidden="true"></i><span>Recommendation</span>
    </div>
-   <div class="recommended-article-group"><a class="recommended-article-item" href="/2024/03/11/ChatGPT/" title="ChatGPT" rel="bookmark">
-  <img src="/images/background-light.jpg" alt="ChatGPT" class="!max-w-none">
-  <span class="title">ChatGPT</span>
+   <div class="recommended-article-group"><a class="recommended-article-item" href="/2024/03/10/first-try/" title="First Try" rel="bookmark">
+  <img src="/images/background-light.jpg" alt="First Try" class="!max-w-none">
+  <span class="title">First Try</span>
 </a><a class="recommended-article-item" href="/2024/03/11/xv6-file-system/" title="xv6 file system" rel="bookmark">
   <img src="/images/background-light.jpg" alt="xv6 file system" class="!max-w-none">
   <span class="title">xv6 file system</span>
@@ -695,21 +860,21 @@
         
             <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
                 
-                    <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
-                        <a class="prev"
-                        rel="prev"
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
                         href="/2024/03/11/xv6-file-system/"
                         >
-                            <span class="left arrow-icon flex justify-center items-center">
-                                <i class="fa-solid fa-chevron-left"></i>
-                            </span>
                             <span class="title flex justify-center items-center">
                                 <span class="post-nav-title-item">xv6 file system</span>
-                                <span class="post-nav-item">Prev posts</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
                             </span>
                         </a>
                     </div>
-                
                 
             </div>
         
@@ -777,8 +942,8 @@
             <div class="post-toc-wrap">
     <div class="post-toc">
         <div class="toc-title">On this page</div>
-        <div class="page-title">First Try</div>
-        
+        <div class="page-title">ChatGPT</div>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%89%8D%E7%BD%AE%E7%9F%A5%E8%AF%86"><span class="nav-number">2.</span> <span class="nav-text">人工智能的前置知识</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0"><span class="nav-number">2.1.</span> <span class="nav-text">机器学习</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E6%95%B0-%E6%9D%83%E9%87%8D%EF%BC%9A"><span class="nav-number">2.2.</span> <span class="nav-text">参数 &#x2F; 权重：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%87%E6%8B%9F%E5%90%88%E3%80%81%E6%AC%A0%E6%8B%9F%E5%90%88%E4%B8%8E%E6%A8%A1%E5%9E%8B%E9%80%80%E5%8C%96"><span class="nav-number">2.3.</span> <span class="nav-text">过拟合、欠拟合与模型退化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%BA%E7%B1%BB%E5%8F%8D%E9%A6%88%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%EF%BC%88RLHF%EF%BC%89"><span class="nav-number">2.4.</span> <span class="nav-text">人类反馈强化学习（RLHF）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C"><span class="nav-number">2.5.</span> <span class="nav-text">神经网络</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ChatGPT-%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="nav-number">3.</span> <span class="nav-text">ChatGPT 的概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Transformer%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86"><span class="nav-number">4.</span> <span class="nav-text">Transformer基本知识</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9Aembedding"><span class="nav-number">4.1.</span> <span class="nav-text">第一步：embedding</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5%EF%BC%9AAttention"><span class="nav-number">4.2.</span> <span class="nav-text">第二步：Attention</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5%EF%BC%9A%E5%B0%86%E5%90%91%E9%87%8F%E8%BD%AC%E4%B8%BA%E6%A6%82%E7%8E%87"><span class="nav-number">4.3.</span> <span class="nav-text">第三步：将向量转为概率</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4ChatGPT%E6%89%93%E5%BC%80%E4%BA%86%E6%BD%98%E5%A4%9A%E6%8B%89%E9%AD%94%E7%9B%92"><span class="nav-number">5.</span> <span class="nav-text">为什么说ChatGPT打开了潘多拉魔盒</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0-%E6%96%87%E7%8C%AE"><span class="nav-number">6.</span> <span class="nav-text">参考文章&#x2F;文献</span></a></li></ol>
 
     </div>
 </div>
