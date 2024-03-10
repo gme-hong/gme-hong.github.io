@@ -3,11 +3,11 @@
   <title>OpticHong&#39;s Blog</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://gme-hong.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://gme-hong.github.io/"/>
   <updated>2024-03-10T06:26:17.014Z</updated>
-  <id>http://example.com/</id>
+  <id>https://gme-hong.github.io/</id>
   
   <author>
     <name>OpticHong</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2024/03/10/hello-world/"/>
-    <id>http://example.com/2024/03/10/hello-world/</id>
+    <link href="https://gme-hong.github.io/2024/03/10/hello-world/"/>
+    <id>https://gme-hong.github.io/2024/03/10/hello-world/</id>
     <published>2024-03-10T06:26:17.014Z</published>
     <updated>2024-03-10T06:26:17.014Z</updated>
     
