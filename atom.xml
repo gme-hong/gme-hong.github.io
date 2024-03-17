@@ -6,7 +6,7 @@
   <link href="https://gme-hong.github.io/atom.xml" rel="self"/>
   
   <link href="https://gme-hong.github.io/"/>
-  <updated>2024-03-11T09:09:45.105Z</updated>
+  <updated>2024-03-17T07:21:03.417Z</updated>
   <id>https://gme-hong.github.io/</id>
   
   <author>
@@ -17,19 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>一次惊心动魄的train</title>
+    <link href="https://gme-hong.github.io/2024/03/17/%E4%B8%80%E6%AC%A1%E6%83%8A%E5%BF%83%E5%8A%A8%E9%AD%84%E7%9A%84train/"/>
+    <id>https://gme-hong.github.io/2024/03/17/%E4%B8%80%E6%AC%A1%E6%83%8A%E5%BF%83%E5%8A%A8%E9%AD%84%E7%9A%84train/</id>
+    <published>2024-03-17T07:13:03.000Z</published>
+    <updated>2024-03-17T07:21:03.417Z</updated>
+    
+    <content type="html"><![CDATA[<p>前一段时间好不容易把模型跑通，跑通后却发现模型的效果一直很差。</p><p>一个ViT模型比起参数量差了10个量级的CNN模型效果还差是不敢想象。</p><p>为此，我又多般调整模型的架构（因为我基于VIT搭的模型比较复杂，采用了大量的Mask设计，所以很难判断到底是哪一部分出了问题）。</p><p>今天下午三点左右，将模型的Encoder部分进行修订，模型的训练如下（每一个epoch只训练了很小一部分的数据）：</p><img lazyload src="/images/loading.svg" data-src="/2024/03/17/%E4%B8%80%E6%AC%A1%E6%83%8A%E5%BF%83%E5%8A%A8%E9%AD%84%E7%9A%84train/image-20240317151355373.png" class title="image-20240317151355373"><p>这个数字看得我是惊心动魄！</p><p>前几个epoch的我：完蛋，还是不行……</p><p>后几个epoch的我：woc，真的吗！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;前一段时间好不容易把模型跑通，跑通后却发现模型的效果一直很差。&lt;/p&gt;
+&lt;p&gt;一个ViT模型比起参数量差了10个量级的CNN模型效果还差是不敢想象。&lt;/p&gt;
+&lt;p&gt;为此，我又多般调整模型的架构（因为我基于VIT搭的模型比较复杂，采用了大量的Mask设计，所以很难判断到底是哪</summary>
+      
+    
+    
+    
+    
+    <category term="Grasp Detection" scheme="https://gme-hong.github.io/tags/Grasp-Detection/"/>
+    
+  </entry>
+  
+  <entry>
     <title>久违的放晴</title>
     <link href="https://gme-hong.github.io/2024/03/11/%E4%B9%85%E8%BF%9D%E7%9A%84%E6%94%BE%E6%99%B4/"/>
     <id>https://gme-hong.github.io/2024/03/11/%E4%B9%85%E8%BF%9D%E7%9A%84%E6%94%BE%E6%99%B4/</id>
     <published>2024-03-11T08:46:07.000Z</published>
-    <updated>2024-03-11T09:09:45.105Z</updated>
+    <updated>2024-03-17T07:11:48.172Z</updated>
     
-    <content type="html"><![CDATA[<p><i class="fa-solid fa-location-dot"></i> Location: Wucheng campus of Shanxi University, Taiyuan, China</p><p>Data: 2024-03-11</p><p>Mood: 下午上完第一节课后，突然感觉周围的一切都很清爽！</p><p>Ps: 可能是这数字图像处理的课太难熬了 <i class="fa-solid fa-face-fearful"></i></p><img lazyload src="/images/loading.svg" data-src="/2024/03/11/%E4%B9%85%E8%BF%9D%E7%9A%84%E6%94%BE%E6%99%B4/6031710146601_.pic_hd.jpg" class title="6031710146601_.pic_hd">]]></content>
+    <content type="html"><![CDATA[<p><i class="fa-solid fa-location-dot"></i> Location: Wucheng campus of Shanxi University, Taiyuan, China</p><p>Date: 2024-03-11</p><p>Mood: 下午上完第一节课后，突然感觉周围的一切都很清爽！</p><p>Ps: 可能是这数字图像处理的课太难熬了 <i class="fa-solid fa-face-fearful"></i></p><img lazyload src="/images/loading.svg" data-src="/2024/03/11/%E4%B9%85%E8%BF%9D%E7%9A%84%E6%94%BE%E6%99%B4/6031710146601_.pic_hd.jpg" class title="6031710146601_.pic_hd">]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;&lt;i class=&quot;fa-solid fa-location-dot&quot;&gt;&lt;/i&gt; Location: Wucheng campus of Shanxi University, Taiyuan, China&lt;/p&gt;
-&lt;p&gt;Data: 2024-03-11&lt;/p&gt;
+&lt;p&gt;Date: 2024-03-11&lt;/p&gt;
 &lt;p&gt;Moo</summary>
       
     

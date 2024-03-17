@@ -13,18 +13,25 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://gme-hong.github.io/tags/ai/"/>
+    <link rel="canonical" href="https://gme-hong.github.io/2024/03/17/一次惊心动魄的train/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta property="og:type" content="website">
-<meta property="og:title" content="OpticHong&#39;s Blog">
-<meta property="og:url" content="https://gme-hong.github.io/tags/AI/index.html">
+        <meta name="description" content="前一段时间好不容易把模型跑通，跑通后却发现模型的效果一直很差。 一个ViT模型比起参数量差了10个量级的CNN模型效果还差是不敢想象。 为此，我又多般调整模型的架构（因为我基于VIT搭的模型比较复杂，采用了大量的Mask设计，所以很难判断到底是哪一部分出了问题）。 今天下午三点左右，将模型的Encoder部分进行修订，模型的训练如下（每一个epoch只训练了很小一部分的数据）：   这个数字看得我">
+<meta property="og:type" content="article">
+<meta property="og:title" content="一次惊心动魄的train">
+<meta property="og:url" content="https://gme-hong.github.io/2024/03/17/%E4%B8%80%E6%AC%A1%E6%83%8A%E5%BF%83%E5%8A%A8%E9%AD%84%E7%9A%84train/index.html">
 <meta property="og:site_name" content="OpticHong&#39;s Blog">
+<meta property="og:description" content="前一段时间好不容易把模型跑通，跑通后却发现模型的效果一直很差。 一个ViT模型比起参数量差了10个量级的CNN模型效果还差是不敢想象。 为此，我又多般调整模型的架构（因为我基于VIT搭的模型比较复杂，采用了大量的Mask设计，所以很难判断到底是哪一部分出了问题）。 今天下午三点左右，将模型的Encoder部分进行修订，模型的训练如下（每一个epoch只训练了很小一部分的数据）：   这个数字看得我">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://gme-hong.github.io/2024/03/17/%E4%B8%80%E6%AC%A1%E6%83%8A%E5%BF%83%E5%8A%A8%E9%AD%84%E7%9A%84train/image-20240317151355373.png">
+<meta property="article:published_time" content="2024-03-17T07:13:03.000Z">
+<meta property="article:modified_time" content="2024-03-17T07:21:03.417Z">
 <meta property="article:author" content="OpticHong">
+<meta property="article:tag" content="Grasp Detection">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gme-hong.github.io/2024/03/17/%E4%B8%80%E6%AC%A1%E6%83%8A%E5%BF%83%E5%8A%A8%E9%AD%84%E7%9A%84train/image-20240317151355373.png">
     
     
     <!--- Icon Part-->
@@ -36,7 +43,7 @@
     
     <title>
         
-            Tag: AI -
+            一次惊心动魄的train -
         
         OpticHong
     </title>
@@ -596,46 +603,267 @@
             <div class="main-content">
 
                 
-                    <div class="tag-container">
-	<div class="tag-name">
-		<i class="fa-solid fa-tag"></i>&nbsp;AI
-	</div>
-	<div class="tag-post-list">
-		
+                    <div class="post-page-container flex relative justify-between box-border w-full h-full">
+    <div class="article-content-container">
 
-<div class="archive-list-container">
-    
-        <section class="archive-item mb-spacing-unit last:mb-0">
-            <div class="archive-item-header flex flex-row items-center mb-2">
-                <span class="archive-year font-semibold text-3xl mr-2">2024</span>
-                <span class="archive-year-post-count text-xs md:text-sm font-bold rounded-small bg-third-background-color py-[2px] px-[10px] border border-border-color">1</span>
+        <div class="article-title relative w-full">
+            
+                <div class="w-full flex items-center pt-6 justify-start">
+                    <h1 class="article-title-regular text-second-text-color text-4xl md:text-6xl font-bold px-2 sm:px-6 md:px-8 py-3">一次惊心动魄的train</h1>
+                </div>
+            
             </div>
-            <ul class="article-list pl-0 md:pl-8 text-lg leading-[1.5]">
-              
+
+        
+            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+                    <img src="/images/favicon.jpg">
+                </div>
+                <div class="info flex flex-col justify-between">
+                    <div class="author flex items-center">
+                        <span class="name text-default-text-color text-lg font-semibold">Nie Hong</span>
+                        
+                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Lv.8</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-03-17 15:13:03</span>
+        <span class="mobile">2024-03-17 15:13:03</span>
+        <span class="hover-info">Created</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2024-03-17 15:21:03</span>
+            <span class="mobile">2024-03-17 15:21:03</span>
+            <span class="hover-info">Updated</span>
+        </span>
+    
+
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
                 
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='03-11'>
+                    <li>
+                        <a href="/tags/Grasp-Detection/">Grasp Detection</a>&nbsp;
+                    </li>
                 
-                    
-                        <a href="/2024/03/11/ChatGPT/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">ChatGPT 打开潘多拉魔盒，行业壁垒逐步瓦解</span>
-                        </a>
-                    
-              
             </ul>
-        </section>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>185 Words</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>1 Mins</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
     
 </div>
 
-	</div>
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+            <p>前一段时间好不容易把模型跑通，跑通后却发现模型的效果一直很差。</p>
+<p>一个ViT模型比起参数量差了10个量级的CNN模型效果还差是不敢想象。</p>
+<p>为此，我又多般调整模型的架构（因为我基于VIT搭的模型比较复杂，采用了大量的Mask设计，所以很难判断到底是哪一部分出了问题）。</p>
+<p>今天下午三点左右，将模型的Encoder部分进行修订，模型的训练如下（每一个epoch只训练了很小一部分的数据）：</p>
+<img lazyload src="/images/loading.svg" data-src="/2024/03/17/%E4%B8%80%E6%AC%A1%E6%83%8A%E5%BF%83%E5%8A%A8%E9%AD%84%E7%9A%84train/image-20240317151355373.png" class title="image-20240317151355373">
+
+<p>这个数字看得我是惊心动魄！</p>
+<p>前几个epoch的我：完蛋，还是不行……</p>
+<p>后几个epoch的我：woc，真的吗！</p>
+
+        </div>
+
+        
+            <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>Title:</strong> 一次惊心动魄的train</li>
+        <li><strong>Author:</strong> Nie Hong</li>
+        <li><strong>Created at
+                :</strong> 2024-03-17 15:13:03</li>
+        
+            <li>
+                <strong>Updated at
+                    :</strong> 2024-03-17 15:21:03
+            </li>
+        
+        <li>
+            <strong>Link:</strong> https://gme-hong.github.io/2024/03/17/一次惊心动魄的train/
+        </li>
+        <li>
+            <strong>
+                License:
+            </strong>
+            
+
+            
+                This work is licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a>.
+            
+        </li>
+    </ul>
 </div>
 
-<div class="tag-paginator">
-	<div class="paginator">
-    <span class="page-number current">1</span>
+            </div>
+        
+
+        
+            <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/Grasp-Detection/">#Grasp Detection</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+  <div class="recommended-article px-2 sm:px-6 md:px-8">
+   <div class="recommended-desktop">
+    <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>Recommendation</span>
+    </div>
+    <div class="recommended-article-group"><a class="recommended-article-item" href="/2024/03/11/ChatGPT/" title="ChatGPT 打开潘多拉魔盒，行业壁垒逐步瓦解" rel="bookmark">
+  <img src="/images/background-light.jpg" alt="ChatGPT 打开潘多拉魔盒，行业壁垒逐步瓦解" class="!max-w-none">
+  <span class="title">ChatGPT 打开潘多拉魔盒，行业壁垒逐步瓦解</span>
+</a><a class="recommended-article-item" href="/2024/03/11/xv6-file-system/" title="xv6 file system" rel="bookmark">
+  <img src="/images/background-light.jpg" alt="xv6 file system" class="!max-w-none">
+  <span class="title">xv6 file system</span>
+</a><a class="recommended-article-item" href="/2024/03/10/first-try/" title="First Try" rel="bookmark">
+  <img src="/images/background-light.jpg" alt="First Try" class="!max-w-none">
+  <span class="title">First Try</span>
+</a></div>
+   </div>
+   <div class="recommended-mobile">
+   <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>Recommendation</span>
+   </div>
+   <div class="recommended-article-group"><a class="recommended-article-item" href="/2024/03/11/ChatGPT/" title="ChatGPT 打开潘多拉魔盒，行业壁垒逐步瓦解" rel="bookmark">
+  <img src="/images/background-light.jpg" alt="ChatGPT 打开潘多拉魔盒，行业壁垒逐步瓦解" class="!max-w-none">
+  <span class="title">ChatGPT 打开潘多拉魔盒，行业壁垒逐步瓦解</span>
+</a><a class="recommended-article-item" href="/2024/03/11/xv6-file-system/" title="xv6 file system" rel="bookmark">
+  <img src="/images/background-light.jpg" alt="xv6 file system" class="!max-w-none">
+  <span class="title">xv6 file system</span>
+</a></div>
+   </div>
+  </div>
+
+        
+            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+                
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
+                        href="/2024/03/11/%E4%B9%85%E8%BF%9D%E7%9A%84%E6%94%BE%E6%99%B4/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">久违的放晴</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+                <div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        Comments
+    </div>
+    
+
+        
+            
+    <div id="giscus-container"></div>
+    <script data-swup-reload-script defer>
+        async function loadGiscus() {
+            const giscusConfig = {
+                'src': 'https://giscus.app/client.js',
+                'data-repo': 'gme-hong/gitalk',
+                'data-repo-id': 'R_kgDOLePdMQ',
+                'data-category': 'General',
+                'data-category-id': 'DIC_kwDOLePdMc4Cd3Gc',
+                'data-mapping': 'title',
+                'data-strict': '0',
+                'data-reactions-enabled': '1',
+                'data-emit-metadata': '1',
+                'data-theme': 'preferred_color_scheme',
+                'data-lang': 'zh-CN',
+                'data-input-position': 'bottom',
+                'data-loading': 'not-lazy',
+                'crossorigin': 'anonymous',
+                'async': true
+            }
+            const giscusScript = document.createElement('script');
+            for (const key in giscusConfig) {
+                giscusScript.setAttribute(key, giscusConfig[key]);
+            }
+            document.getElementById('giscus-container').appendChild(giscusScript);
+        }
+        if ('true') {
+            let loadGiscusTimeout = setTimeout(() => {
+                loadGiscus();
+                clearTimeout(loadGiscusTimeout);
+            }, 1000);
+        } else {
+            document.addEventListener('DOMContentLoaded', loadGiscus);
+        }
+    </script>
+
+
+        
+        
+    
 </div>
 
+            </div>
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">On this page</div>
+        <div class="page-title">一次惊心动魄的train</div>
+        
+
+    </div>
 </div>
+        </div>
+    
+</div>
+
 
 
                 
@@ -722,6 +950,27 @@
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-side-tools-container">
