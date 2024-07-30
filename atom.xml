@@ -65,19 +65,16 @@
     <link href="https://gme-hong.github.io/2024/05/31/film/"/>
     <id>https://gme-hong.github.io/2024/05/31/film/</id>
     <published>2024-05-31T09:31:32.000Z</published>
-    <updated>2024-07-30T15:05:50.333Z</updated>
+    <updated>2024-07-30T15:11:44.103Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>Valuable works are always waiting to be discovered.</p></blockquote><ul><li><p><input checked disabled type="checkbox"> 《燃烧》：<a class="link" href="https://movie.douban.com/review/9430930/">最全解读，你真的看懂《燃烧》了吗？（燃烧）影评 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p></li><li><p><input checked disabled type="checkbox"> 《深海》：<a class="link" href="https://movie.douban.com/review/14934951/">读懂《深海》的故事与讲故事的方式（深海）影评 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p></li><li><p><input checked disabled type="checkbox"> 24.7.30《默杀》：<a class="link" href="https://movie.douban.com/review/16040391/">《默杀》深度解析：没懂的来看这篇解读，真相都藏在细节和彩蛋里（默杀）影评 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><blockquote><p>优缺点都很明显，6.9分很公允。</p></blockquote></li></ul>]]></content>
+    <content type="html"><![CDATA[  <div class="note p-4 mb-4 rounded-small red icon-padding">    <i class="note-icon fa-solid fa-bolt"></i><p>Valuable works are always waiting to be discovered.</p>  </div><ul><li><input checked disabled type="checkbox"> 《燃烧》：<a class="link" href="https://movie.douban.com/review/9430930/">最全解读，你真的看懂《燃烧》了吗？（燃烧）影评 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li><li><input checked disabled type="checkbox"> 《深海》：<a class="link" href="https://movie.douban.com/review/14934951/">读懂《深海》的故事与讲故事的方式（深海）影评 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li><li><input checked disabled type="checkbox"> 24.7.30《默杀》：<a class="link" href="https://movie.douban.com/review/16040391/">《默杀》深度解析：没懂的来看这篇解读，真相都藏在细节和彩蛋里（默杀）影评 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> <code>Note：优缺点都很明显，6.9分很公允。</code></li></ul>]]></content>
     
     
       
       
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;Valuable works are always waiting to be discovered.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;input checked disabled type=&quot;checkbox&quot;&gt; 
-</summary>
+    <summary type="html">
+  &lt;div class=&quot;note p-4 mb-4 rounded-small red icon-padding&quot;&gt;
+    &lt;i class=&quot;note-icon fa-solid fa-bolt&quot;&gt;&lt;/i&gt;&lt;p&gt;Valuable works are always wai</summary>
       
     
     
