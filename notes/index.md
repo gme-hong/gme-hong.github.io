@@ -17,10 +17,11 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="OpticHong" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","headline":"OpticHong","url":"https://gme-hong.github.io/notes/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","headline":"OpticHong's Notes","url":"https://gme-hong.github.io/notes/"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="stylesheet" href="https://gme-hong.github.io/notes/ravel-light.css">
+    <link rel="stylesheet" href="/assets/css/style.css?v=3e57553ef099778ff9089aa7f8f6e3018a41a836">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
