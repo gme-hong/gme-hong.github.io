@@ -3,12 +3,12 @@
 
 ## Algorithm
 - [机式指南](./OJ_Guide_Bar.html)
-- [数学建模算法](./Mathematical_Modeling.html)
+- [数学建模算法](./Mathematical Modeling.html)
 
 ## Machine Learning
 
 - [OpenCV](./OpenCV.html)
-- [Data Analysis](./Data_Analysis.html)
+- [Data Analysis](./Data Analysis.html)
 
 ## Computer Professional Course
 
