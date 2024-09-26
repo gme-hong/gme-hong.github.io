@@ -114,12 +114,12 @@
     <link href="https://gme-hong.github.io/2024/05/19/%E6%9C%BA%E8%AF%95%E6%8C%87%E5%8D%97/"/>
     <id>https://gme-hong.github.io/2024/05/19/%E6%9C%BA%E8%AF%95%E6%8C%87%E5%8D%97/</id>
     <published>2024-05-19T07:24:26.000Z</published>
-    <updated>2024-09-25T16:50:05.391Z</updated>
+    <updated>2024-09-26T03:39:27.476Z</updated>
     
     <content type="html"><![CDATA[<iframe id="iframe" src="https://gme-hong.github.io/notes/OJ_Guide.html" onload="adjustIframe();" style="width:100%; margin-bottom: 20px;" frameborder="0" scrolling="auto"></iframe><script>    function adjustIframe(){        var ifm= document.getElementById("iframe");        ifm.height=document.documentElement.scrollHeight;    }</script>]]></content>
     
     
-    <summary type="html">This algorithm guide can help you to participate in a variety of programming algorithm competitions, university computer re-examination.</summary>
+    <summary type="html">This algorithm guide can help you to participate in a variety of programming algorithm competitions, computer re-examination.</summary>
     
     
     
