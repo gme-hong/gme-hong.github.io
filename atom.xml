@@ -6,7 +6,7 @@
   <link href="https://gme-hong.github.io/atom.xml" rel="self"/>
   
   <link href="https://gme-hong.github.io/"/>
-  <updated>2025-07-22T09:49:30.333Z</updated>
+  <updated>2025-07-22T09:56:41.135Z</updated>
   <id>https://gme-hong.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Postgraduate-Notes</title>
+    <title>Graduate Notes</title>
     <link href="https://gme-hong.github.io/2025/07/22/Postgraduate-Notes/"/>
     <id>https://gme-hong.github.io/2025/07/22/Postgraduate-Notes/</id>
-    <published>2025-07-22T09:48:41.000Z</published>
-    <updated>2025-07-22T09:49:30.333Z</updated>
+    <published>2025-07-22T09:59:41.000Z</published>
+    <updated>2025-07-22T09:56:41.135Z</updated>
     
     <content type="html"><![CDATA[<p>Note1: <a class="link" href="https://gme-hong.notion.site/238046db1ae280dea64be8e16ac245d4?pvs=74">分布式训练 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>]]></content>
     
@@ -30,6 +30,19 @@
       
     <summary type="html">&lt;p&gt;Note1: &lt;a class=&quot;link&quot; href=&quot;https://gme-hong.notion.site/238046db1ae280dea64be8e16ac245d4?pvs=74&quot;&gt;分布式训练 &lt;i class=&quot;fa-regular fa-arrow-up</summary>
       
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Undergraduate Notes</title>
+    <link href="https://gme-hong.github.io/2025/07/22/Undergraduate-Notes/"/>
+    <id>https://gme-hong.github.io/2025/07/22/Undergraduate-Notes/</id>
+    <published>2025-07-22T09:56:05.000Z</published>
+    <updated>2025-07-22T09:56:44.010Z</updated>
+    
     
     
     
