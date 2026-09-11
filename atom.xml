@@ -9,7 +9,7 @@
   <link href="https://gme-hong.github.io/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, OpticHong</rights>
   <title>OpticHong's Blog</title>
-  <updated>2026-09-11T10:52:58.758Z</updated>
+  <updated>2026-09-11T14:18:32.569Z</updated>
   <entry>
     <author>
       <name>OpticHong</name>
@@ -17,18 +17,17 @@
     <category term="Travel" scheme="https://gme-hong.github.io/categories/Travel/"/>
     <category term="Hiking" scheme="https://gme-hong.github.io/tags/Hiking/"/>
     <content>
-      <![CDATA[<h3 id="五岳名山"><a href="#五岳名山" class="headerlink" title="五岳名山"></a>五岳名山</h3><ul><li><input disabled type="checkbox"> 泰山 | 山东 · 泰安</li><li><input disabled type="checkbox"> 衡山 | 湖南 · 衡阳</li><li><input disabled type="checkbox"> 恒山 | 山西 · 大同</li><li><input disabled type="checkbox"> 华山 | 陕西 · 渭南</li><li><input disabled type="checkbox"> 嵩山 | 河南 · 郑州</li></ul><hr><h3 id="三岳名胜"><a href="#三岳名胜" class="headerlink" title="三岳名胜"></a>三岳名胜</h3><ul><li><input checked disabled type="checkbox"> 黄山 | 安徽 · 黄山：<a class="link" href="https://blog.optichong.cn/2026/09/07/%E9%BB%84%E5%B1%B1%E5%88%9D%E8%A7%81/">黄山 · 初见 | OpticHong<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li><li><input disabled type="checkbox"> 庐山 | 江西 · 九江</li><li><input disabled type="checkbox"> 雁荡山 | 浙江 · 温州</li></ul><hr><h3 id="佛教名山"><a href="#佛教名山" class="headerlink" title="佛教名山"></a>佛教名山</h3><ul><li><input disabled type="checkbox"> 五台山 | 山西 · 忻州</li><li><input disabled type="checkbox"> 峨眉山 | 四川 · 乐山</li><li><input disabled type="checkbox"> 普陀山 | 浙江 · 舟山</li><li><input disabled type="checkbox"> 雪窦山 | 浙江 · 宁波</li><li><input disabled type="checkbox"> 九华山 | 安徽 · 池州</li></ul><hr><h3 id="道教名山"><a href="#道教名山" class="headerlink" title="道教名山"></a>道教名山</h3><ul><li><input disabled type="checkbox"> 武当山 | 湖北 · 十堰</li><li><input disabled type="checkbox"> 龙虎山 | 江西 · 鹰潭</li><li><input disabled type="checkbox"> 青城山 | 四川 · 成都</li><li><input disabled type="checkbox"> 齐云山 | 安徽 · 黄山</li></ul><h3 id="地貌名山"><a href="#地貌名山" class="headerlink" title="地貌名山"></a>地貌名山</h3><ul><li><input disabled type="checkbox"> 武夷山 | 福建 · 南平</li><li><input disabled type="checkbox"> 三清山 | 江西 · 上饶</li><li><input disabled type="checkbox"> 梵净山 | 贵州 · 铜仁</li><li><input checked disabled type="checkbox"> 天门山 | 湖南 · 张家界</li></ul><hr><h3 id="徒步名山"><a href="#徒步名山" class="headerlink" title="徒步名山"></a>徒步名山</h3><ul><li><input disabled type="checkbox"> 四姑娘山 | 四川 · 阿坝</li><li><input disabled type="checkbox"> 武功山 | 江西 · 萍乡</li><li><input disabled type="checkbox"> 长白山 | 吉林 · 白山</li><li><input disabled type="checkbox"> 梅里雪山 | 云南 · 迪庆</li></ul><hr><h3 id="徒步圣地"><a href="#徒步圣地" class="headerlink" title="徒步圣地"></a>徒步圣地</h3><ul><li><input disabled type="checkbox"> 雨崩 | 云南 · 迪庆</li></ul>]]>
+      <![CDATA[<h3 id="五岳名山"><a href="#五岳名山" class="headerlink" title="五岳名山"></a>五岳名山</h3><ul><li><input disabled type="checkbox"> 泰山 | 山东 · 泰安 | 海拔 1532 m</li><li><input disabled type="checkbox"> 衡山 | 湖南 · 衡阳 | 海拔 1300 m</li><li><input disabled type="checkbox"> 恒山 | 山西 · 大同 | 海拔 2016 m</li><li><input disabled type="checkbox"> 华山 | 陕西 · 渭南 | 海拔 2155 m</li><li><input disabled type="checkbox"> 嵩山 | 河南 · 郑州 | 海拔 1492 m</li></ul><hr><h3 id="三岳名胜"><a href="#三岳名胜" class="headerlink" title="三岳名胜"></a>三岳名胜</h3><ul><li><input checked disabled type="checkbox"> 黄山 | 安徽 · 黄山 | 海拔 1864 m：<a class="link" href="https://blog.optichong.cn/2026/09/07/%E9%BB%84%E5%B1%B1%E5%88%9D%E8%A7%81/">黄山 · 初见 | OpticHong<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li><li><input disabled type="checkbox"> 庐山 | 江西 · 九江 | 海拔 1474 m</li><li><input disabled type="checkbox"> 雁荡山 | 浙江 · 温州 | 海拔 1056 m</li></ul><hr><h3 id="佛教名山"><a href="#佛教名山" class="headerlink" title="佛教名山"></a>佛教名山</h3><ul><li><input disabled type="checkbox"> 五台山 | 山西 · 忻州 | 海拔 3061 m</li><li><input disabled type="checkbox"> 峨眉山 | 四川 · 乐山 | 海拔 3099 m</li><li><input disabled type="checkbox"> 普陀山 | 浙江 · 舟山 | 海拔 291 m</li><li><input disabled type="checkbox"> 雪窦山 | 浙江 · 宁波 | 海拔 800 m</li><li><input disabled type="checkbox"> 九华山 | 安徽 · 池州 | 海拔 1344 m</li></ul><hr><h3 id="道教名山"><a href="#道教名山" class="headerlink" title="道教名山"></a>道教名山</h3><ul><li><input disabled type="checkbox"> 武当山 | 湖北 · 十堰 | 海拔 1612 m</li><li><input disabled type="checkbox"> 龙虎山 | 江西 · 鹰潭 | 海拔 1300 m</li><li><input disabled type="checkbox"> 青城山 | 四川 · 成都 | 海拔 1260 m</li><li><input disabled type="checkbox"> 齐云山 | 安徽 · 黄山 | 海拔 585 m</li></ul><h3 id="地貌名山"><a href="#地貌名山" class="headerlink" title="地貌名山"></a>地貌名山</h3><ul><li><input disabled type="checkbox"> 武夷山 | 福建 · 南平 | 海拔 2160 m</li><li><input disabled type="checkbox"> 三清山 | 江西 · 上饶 | 海拔 1819 m</li><li><input disabled type="checkbox"> 梵净山 | 贵州 · 铜仁 | 海拔 2570 m</li><li><input checked disabled type="checkbox"> 天门山 | 湖南 · 张家界 | 海拔 1518 m</li></ul><hr><h3 id="徒步名山"><a href="#徒步名山" class="headerlink" title="徒步名山"></a>徒步名山</h3><ul><li><input disabled type="checkbox"> 四姑娘山 | 四川 · 阿坝 | 海拔 6250 m</li><li><input disabled type="checkbox"> 武功山 | 江西 · 萍乡 | 海拔 1918 m</li><li><input disabled type="checkbox"> 长白山 | 吉林 · 白山 | 海拔 2691 m</li><li><input disabled type="checkbox"> 梅里雪山 | 云南 · 迪庆 | 海拔 6740 m</li></ul><hr><h3 id="徒步圣地"><a href="#徒步圣地" class="headerlink" title="徒步圣地"></a>徒步圣地</h3><ul><li><input disabled type="checkbox"> 雨崩 | 云南 · 迪庆 | 海拔约 3100 m</li></ul>]]>
     </content>
     <id>https://gme-hong.github.io/2026/09/11/Hiking/</id>
     <link href="https://gme-hong.github.io/2026/09/11/Hiking/"/>
     <published>2026-09-11T09:53:08.000Z</published>
     <summary>
       <![CDATA[<h3 id="五岳名山"><a href="#五岳名山" class="headerlink" title="五岳名山"></a>五岳名山</h3><ul>
-<li><input disabled type="checkbox"> 泰山 | 山东 · 泰安</li>
-<li><]]>
+<li><input disabled type="checkbox"> 泰山 | 山东 · 泰安 | 海拔 1532]]>
     </summary>
     <title>Hiking Record</title>
-    <updated>2026-09-11T10:52:58.758Z</updated>
+    <updated>2026-09-11T14:18:32.569Z</updated>
   </entry>
   <entry>
     <author>
