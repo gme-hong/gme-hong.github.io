@@ -9,7 +9,23 @@
   <link href="https://gme-hong.github.io/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, OpticHong</rights>
   <title>OpticHong's Blog</title>
-  <updated>2026-09-13T09:53:15.218Z</updated>
+  <updated>2026-09-18T07:32:05.462Z</updated>
+  <entry>
+    <author>
+      <name>OpticHong</name>
+    </author>
+    <category term="Notes" scheme="https://gme-hong.github.io/categories/Notes/"/>
+    <category term="AI" scheme="https://gme-hong.github.io/tags/AI/"/>
+    <content>
+      <![CDATA[<p class="link-post">原文发布在：<a class="link" href="https://gme-hong.notion.site/Attention-KV-Cache-3d7046db1ae280e4a382df5c6fa146e9">https://gme-hong.notion.site/Attention-KV-Cache-3d7046db1ae280e4a382df5c6fa146e9<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p><script data-swup-reload-script>location.replace("https://gme-hong.notion.site/Attention-KV-Cache-3d7046db1ae280e4a382df5c6fa146e9")</script>]]>
+    </content>
+    <id>https://gme-hong.github.io/2026/09/18/Attention-KV-Cache/</id>
+    <link href="https://gme-hong.github.io/2026/09/18/Attention-KV-Cache/"/>
+    <published>2026-09-18T04:00:00.000Z</published>
+    <summary>原文发布在 gme-hong.notion.site</summary>
+    <title>Attention与KV Cache管理机制的协同演化</title>
+    <updated>2026-09-18T07:32:05.462Z</updated>
+  </entry>
   <entry>
     <author>
       <name>OpticHong</name>
