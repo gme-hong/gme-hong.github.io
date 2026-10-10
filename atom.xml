@@ -9,7 +9,23 @@
   <link href="https://gme-hong.github.io/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, OpticHong</rights>
   <title>OpticHong's Blog</title>
-  <updated>2026-09-18T07:32:05.462Z</updated>
+  <updated>2026-10-10T02:10:03.882Z</updated>
+  <entry>
+    <author>
+      <name>OpticHong</name>
+    </author>
+    <category term="Notes" scheme="https://gme-hong.github.io/categories/Notes/"/>
+    <category term="AI" scheme="https://gme-hong.github.io/tags/AI/"/>
+    <content>
+      <![CDATA[<p class="link-post">原文发布在：<a class="link" href="https://gme-hong.notion.site/DeepSeek-V4-1-Flash-3f4046db1ae280bfb637f22e1f45bb70">https://gme-hong.notion.site/DeepSeek-V4-1-Flash-3f4046db1ae280bfb637f22e1f45bb70<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p><script data-swup-reload-script>location.replace("https://gme-hong.notion.site/DeepSeek-V4-1-Flash-3f4046db1ae280bfb637f22e1f45bb70")</script>]]>
+    </content>
+    <id>https://gme-hong.github.io/2026/10/10/DeepSeek-V4.1-Flash/</id>
+    <link href="https://gme-hong.github.io/2026/10/10/DeepSeek-V4.1-Flash/"/>
+    <published>2026-10-10T02:09:58.000Z</published>
+    <summary>原文发布在 gme-hong.notion.site</summary>
+    <title>DeepSeek-V4.1-Flash</title>
+    <updated>2026-10-10T02:10:03.882Z</updated>
+  </entry>
   <entry>
     <author>
       <name>OpticHong</name>
