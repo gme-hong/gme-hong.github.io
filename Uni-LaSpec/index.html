@@ -2342,6 +2342,23 @@ frames.forEach(f => {
 })();
 </script>
 <script>
+// Count this visit under the post's URL, which is what its home-page card reads.
+// Must run before the language script below consumes unilaspec-sec: that key marks a language-switch reload.
+(function () {
+  if (["https://gme-hong.github.io", "https://blog.optichong.cn"].indexOf(location.origin) === -1) return;
+  try { if (sessionStorage.getItem("unilaspec-sec") !== null) return; } catch (_) {}
+  var key = "vercount_uv_" + location.host.replace(/[^a-zA-Z0-9_-]/g, "_");
+  var isNewUv = document.cookie.split("; ").indexOf(key + "=1") === -1;
+  if (isNewUv) document.cookie = key + "=1; path=/; max-age=31536000; samesite=lax";
+  fetch("https://events.vercount.one/api/v2/log", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ url: location.origin + "/2026/10/30/Uni-LaSpec/", isNewUv: isNewUv }),
+    keepalive: true
+  }).catch(function () {});
+})();
+</script>
+<script>
 (function () {
   var lang = "en";
   try { var s = localStorage.getItem("unilaspec-lang"); if (s === "zh" || s === "en") lang = s; } catch (_) {}

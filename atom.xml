@@ -9,7 +9,7 @@
   <link href="https://gme-hong.github.io/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, OpticHong</rights>
   <title>OpticHong's Blog</title>
-  <updated>2026-10-30T09:10:40.463Z</updated>
+  <updated>2026-10-30T17:25:01.192Z</updated>
   <entry>
     <author>
       <name>OpticHong</name>
@@ -18,14 +18,14 @@
     <category term="AI" scheme="https://gme-hong.github.io/tags/AI/"/>
     <category term="Speculative Decoding" scheme="https://gme-hong.github.io/tags/Speculative-Decoding/"/>
     <content>
-      <![CDATA[<p class="link-post">原文发布在：<a href="https://gme-hong.github.io/Uni-LaSpec/">https://gme-hong.github.io/Uni-LaSpec/</a></p><script data-swup-reload-script>location.replace("https://gme-hong.github.io/Uni-LaSpec/")</script>]]>
+      <![CDATA[<p class="link-post">原文发布在：<a class="link" href="https://blog.optichong.cn/Uni-LaSpec/">https://blog.optichong.cn/Uni-LaSpec/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p><script data-swup-reload-script>location.replace("https://blog.optichong.cn/Uni-LaSpec/")</script>]]>
     </content>
     <id>https://gme-hong.github.io/2026/10/30/Uni-LaSpec/</id>
     <link href="https://gme-hong.github.io/2026/10/30/Uni-LaSpec/"/>
     <published>2026-10-30T07:00:00.000Z</published>
     <summary>Uni-LaSpec：面向视觉语言模型的负载自适应推测解码，结合视觉证据选择与动态验证调度，提供中英双语方法介绍、交互图解和实验结果。</summary>
     <title>Uni-LaSpec</title>
-    <updated>2026-10-30T09:10:40.463Z</updated>
+    <updated>2026-10-30T17:25:01.192Z</updated>
   </entry>
   <entry>
     <author>
