@@ -9,7 +9,7 @@
   <link href="https://gme-hong.github.io/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, OpticHong</rights>
   <title>OpticHong's Blog</title>
-  <updated>2026-11-07T10:22:39.381Z</updated>
+  <updated>2026-11-07T10:30:04.819Z</updated>
   <entry>
     <author>
       <name>OpticHong</name>
@@ -24,8 +24,8 @@
     <link href="https://gme-hong.github.io/2026/11/07/D3Tree/"/>
     <published>2026-11-07T10:20:00.000Z</published>
     <summary>D3Tree：学习剪枝块扩散草稿树，通过路径存活评分与批次级节点预算提高验证效率，提供中英双语方法介绍、交互图解与实验结果。</summary>
-    <title>D3Tree</title>
-    <updated>2026-11-07T10:22:39.381Z</updated>
+    <title>D3Tree: Learning to Prune Block-Diffusion Draft Trees for Efficient Verification</title>
+    <updated>2026-11-07T10:30:04.819Z</updated>
   </entry>
   <entry>
     <author>
@@ -41,8 +41,8 @@
     <link href="https://gme-hong.github.io/2026/10/30/Uni-LaSpec/"/>
     <published>2026-10-30T07:00:00.000Z</published>
     <summary>Uni-LaSpec：面向视觉语言模型的负载自适应推测解码，结合视觉证据选择与动态验证调度，提供中英双语方法介绍、交互图解和实验结果。</summary>
-    <title>Uni-LaSpec</title>
-    <updated>2026-10-31T01:07:42.658Z</updated>
+    <title>Seeing What Matters, Verifying What Pays: Load-Adaptive Speculative Decoding for Vision-Language Models</title>
+    <updated>2026-11-07T10:30:04.820Z</updated>
   </entry>
   <entry>
     <author>
