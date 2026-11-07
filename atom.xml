@@ -9,7 +9,24 @@
   <link href="https://gme-hong.github.io/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, OpticHong</rights>
   <title>OpticHong's Blog</title>
-  <updated>2026-10-30T17:25:01.192Z</updated>
+  <updated>2026-11-07T10:22:39.381Z</updated>
+  <entry>
+    <author>
+      <name>OpticHong</name>
+    </author>
+    <category term="Papers" scheme="https://gme-hong.github.io/categories/Papers/"/>
+    <category term="AI" scheme="https://gme-hong.github.io/tags/AI/"/>
+    <category term="Speculative Decoding" scheme="https://gme-hong.github.io/tags/Speculative-Decoding/"/>
+    <content>
+      <![CDATA[<p class="link-post">原文发布在：<a class="link" href="https://blog.optichong.cn/D3Tree/">https://blog.optichong.cn/D3Tree/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p><script data-swup-reload-script>location.replace("https://blog.optichong.cn/D3Tree/")</script>]]>
+    </content>
+    <id>https://gme-hong.github.io/2026/11/07/D3Tree/</id>
+    <link href="https://gme-hong.github.io/2026/11/07/D3Tree/"/>
+    <published>2026-11-07T10:20:00.000Z</published>
+    <summary>D3Tree：学习剪枝块扩散草稿树，通过路径存活评分与批次级节点预算提高验证效率，提供中英双语方法介绍、交互图解与实验结果。</summary>
+    <title>D3Tree</title>
+    <updated>2026-11-07T10:22:39.381Z</updated>
+  </entry>
   <entry>
     <author>
       <name>OpticHong</name>
@@ -25,7 +42,7 @@
     <published>2026-10-30T07:00:00.000Z</published>
     <summary>Uni-LaSpec：面向视觉语言模型的负载自适应推测解码，结合视觉证据选择与动态验证调度，提供中英双语方法介绍、交互图解和实验结果。</summary>
     <title>Uni-LaSpec</title>
-    <updated>2026-10-30T17:25:01.192Z</updated>
+    <updated>2026-10-31T01:07:42.658Z</updated>
   </entry>
   <entry>
     <author>
@@ -41,7 +58,7 @@
     <published>2026-10-10T02:09:58.000Z</published>
     <summary>原文发布在 gme-hong.notion.site</summary>
     <title>DeepSeek-V4.1-Flash</title>
-    <updated>2026-10-10T02:10:03.882Z</updated>
+    <updated>2026-10-31T01:07:42.658Z</updated>
   </entry>
   <entry>
     <author>
@@ -57,7 +74,7 @@
     <published>2026-09-18T04:00:00.000Z</published>
     <summary>原文发布在 gme-hong.notion.site</summary>
     <title>Attention与KV Cache管理机制的协同演化</title>
-    <updated>2026-09-18T07:32:05.462Z</updated>
+    <updated>2026-10-31T01:07:42.657Z</updated>
   </entry>
   <entry>
     <author>
@@ -76,7 +93,7 @@
 <li><input disabled type="checkbox"> 泰山 | 山东 · 泰安 | 海拔 1532]]>
     </summary>
     <title>Hiking Record</title>
-    <updated>2026-09-13T09:53:15.218Z</updated>
+    <updated>2026-10-31T01:07:42.658Z</updated>
   </entry>
   <entry>
     <author>
@@ -94,7 +111,7 @@
       <![CDATA[<p>周末黄山徒步后回来的头一天，我写下这篇博客。思绪感慨万千，感觉工作、科研的缰绳还没把我这匹短暂脱缰的牛马给拉回来！我的 +1 和 +2 mentor 同一天找我，说明从今天开始，我又得换个方向开展研究。这与我将至黄山之前的念想不谋而合，只是要做的事情大相径庭。同一天，“重装]]>
     </summary>
     <title>黄山 · 初见</title>
-    <updated>2026-10-04T09:45:42.046Z</updated>
+    <updated>2026-10-31T01:07:42.659Z</updated>
   </entry>
   <entry>
     <author>
@@ -115,7 +132,7 @@
 <p><img lazyload src="/images/loading.svg" data-src="http]]>
     </summary>
     <title>一行响应头</title>
-    <updated>2026-09-18T09:47:06.453Z</updated>
+    <updated>2026-10-31T01:07:42.658Z</updated>
   </entry>
   <entry>
     <author>
