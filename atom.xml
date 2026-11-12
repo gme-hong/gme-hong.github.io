@@ -9,7 +9,23 @@
   <link href="https://gme-hong.github.io/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, OpticHong</rights>
   <title>OpticHong's Blog</title>
-  <updated>2026-11-07T10:30:04.819Z</updated>
+  <updated>2026-11-12T08:28:44.217Z</updated>
+  <entry>
+    <author>
+      <name>OpticHong</name>
+    </author>
+    <category term="Notes" scheme="https://gme-hong.github.io/categories/Notes/"/>
+    <category term="AI" scheme="https://gme-hong.github.io/tags/AI/"/>
+    <content>
+      <![CDATA[<p class="link-post">原文发布在：<a class="link" href="https://gme-hong.notion.site/DeepSeek-V4-1-Flash-414046db1ae280248797f7da9dd5fa99">https://gme-hong.notion.site/DeepSeek-V4-1-Flash-414046db1ae280248797f7da9dd5fa99<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p><script data-swup-reload-script>location.replace("https://gme-hong.notion.site/DeepSeek-V4-1-Flash-414046db1ae280248797f7da9dd5fa99")</script>]]>
+    </content>
+    <id>https://gme-hong.github.io/2026/11/12/DeepSeek-V4.1-Flash-Distributed-Deployment/</id>
+    <link href="https://gme-hong.github.io/2026/11/12/DeepSeek-V4.1-Flash-Distributed-Deployment/"/>
+    <published>2026-11-12T08:25:00.000Z</published>
+    <summary>DeepSeek V4.1 Flash 的 EPD（Encoder / Prefill / Decode）三段分离部署：超节点上各机的权重放置、后 20 层全局 KV 由 H_20 投影得到，以及滑动窗口 KV 必须用最后 128 个 token replay 补全的原因。</summary>
+    <title>DeepSeek V4.1 Flash 分布式部署研究</title>
+    <updated>2026-11-12T08:28:44.217Z</updated>
+  </entry>
   <entry>
     <author>
       <name>OpticHong</name>
